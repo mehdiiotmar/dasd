@@ -9,7 +9,11 @@ import OrderModal from './components/OrderModal';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
 import './components/OrderModal.css';
 import './index.css';
+import React from 'react';
 
+export default function App(): JSX.Element {
+  return <div>App</div>;
+}
 function App() {
   const [scrolled, setScrolled] = useState(false);
   const [isOrderModalOpen, setIsOrderModalOpen] = useState(false);
