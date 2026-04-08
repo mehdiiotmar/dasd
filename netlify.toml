@@ -1,0 +1,10 @@
+# netlify.toml pour Vite + React + Supabase
+
+[build]
+  command = "npm run build"  # commande pour générer le build
+  publish = "dist"           # dossier à publier
+
+[[redirects]]
+  from = "/*"                # redirige toutes les routes vers index.html
+  to = "/index.html"
+  status = 200
